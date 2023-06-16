@@ -1,0 +1,2217 @@
+[
+    {
+        "id": "f4a837709eeded50",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "407d8ede930ed0f8",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Status_JACKAL_Rover",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bec695bc41df17b7",
+            "2feef02238cde301",
+            "4138cc3d526116c1",
+            "52c93f86d08bdc9b",
+            "82a9110486f82178",
+            "a9c3e68b9ca68c8e",
+            "c2146917c59662e5"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 512,
+        "h": 402
+    },
+    {
+        "id": "5fadb7e7df5aca58",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Battery_Status_Jackal",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8fe8a1e5fe7e15a2",
+            "d1f2e82098134ba6",
+            "056ad237852770e8",
+            "88d5e535815b8a9e",
+            "43c8e3fa95263a56"
+        ],
+        "x": 814,
+        "y": 52.75,
+        "w": 572,
+        "h": 208.25
+    },
+    {
+        "id": "05fa76a1e1ef9d0c",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Battery_Voltage_Jackal",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c1eb550a2528e39e",
+            "8c419680a4427cb4",
+            "1739ec0b81b51e42",
+            "d12ed2d196203229",
+            "ac38eefb2c455393"
+        ],
+        "x": 754,
+        "y": 339,
+        "w": 652,
+        "h": 222
+    },
+    {
+        "id": "f08ca4e11eb9f8b3",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Status_Fire",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "26222e96d0eed9d3",
+            "7ce41d94cc0851a1",
+            "28cbb69e11ed8691",
+            "a1fa7c5ff704288d",
+            "ae6a3d7f11255044",
+            "2ddbe0e11d35627d",
+            "983b8a615b71a5c3",
+            "b724a18d576d8cca",
+            "1f2d12e905ff71ea",
+            "e675c1050dbcf165",
+            "f2fb7a1e02979e57",
+            "8ffdf2cc8c1e386b"
+        ],
+        "x": 34,
+        "y": 479,
+        "w": 712,
+        "h": 442
+    },
+    {
+        "id": "638659e79dbf0cf9",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Status_GPS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "917a1b4935a754e8",
+            "8f5767bef00552f1",
+            "d90780d0a86137d2",
+            "cdff419b9f421c0f",
+            "8e3548d2a8ef38e2",
+            "f5567fe9d734aff2",
+            "baebc1c94ef3b844",
+            "e1dcc023d97b534a",
+            "08308eedff325358",
+            "8e8a90e7527a1b89",
+            "e65133342b4ad6d3"
+        ],
+        "x": 794,
+        "y": 619,
+        "w": 652,
+        "h": 342
+    },
+    {
+        "id": "2b0d71437445b798",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Map",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "32c462921966bad9",
+            "a1f8e10c6f224d10",
+            "1a284ebdfe8ef37e",
+            "80dbc714d12ccf92",
+            "4754c6b087ab1ab8",
+            "7de012f7eea5b1c6",
+            "df632325fe7370ea",
+            "6bc023d9ffab218a",
+            "17dfb463eea0b5ef",
+            "8d24d95130627fec",
+            "b6f09a9f3ea74c88",
+            "924611ad2cc067d1",
+            "e06af965515b312d",
+            "70802bf4318ed54a",
+            "b6ea57200ec9291c",
+            "9ae5aeea9a3158ef",
+            "84a379349d1bcd0d",
+            "85d33bb2818216c7",
+            "e0f273097bc46780"
+        ],
+        "x": 54,
+        "y": 1039,
+        "w": 1092,
+        "h": 622
+    },
+    {
+        "id": "8e51426e14255890",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Temperature_JACKAL_Rover",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a83226165d96a0c1",
+            "338b6b185995887f",
+            "d93622fde38192dd",
+            "d28dd2984d3c405a",
+            "3ca8033a587f298e",
+            "5a47acdf5eb8e625",
+            "f19015fdf6338f95",
+            "c11869362e7b9886",
+            "72eacb035aa4c685",
+            "40c46e71a5978ff4",
+            "5c9ea988acb25ec3"
+        ],
+        "x": 14,
+        "y": 1739,
+        "w": 712,
+        "h": 462
+    },
+    {
+        "id": "1efdcc16e841f3c6",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Fire Position",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8498356e1c9525be",
+            "06086b6e0999c0f5",
+            "c514b385493a875a",
+            "f2a5fb7a9ccb0394"
+        ],
+        "x": 814,
+        "y": 1739,
+        "w": 872,
+        "h": 142
+    },
+    {
+        "id": "beb258d68d350182",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "Fuel",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2e859349d017e8fa",
+            "2776fe320e9cf8f8",
+            "bb3003c05ddaa594",
+            "068b0e1a5083e2fe",
+            "032eae6627e2175e"
+        ],
+        "x": 1174,
+        "y": 1052.75,
+        "w": 552,
+        "h": 208.25
+    },
+    {
+        "id": "c53101b2820f65ea",
+        "type": "group",
+        "z": "f4a837709eeded50",
+        "name": "WATER",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ee761337b4ed512e",
+            "4503a4cd1d80a998",
+            "7e303e7c8d4a45ac",
+            "251fc58278c2d560",
+            "8dca369638a142f3"
+        ],
+        "x": 814,
+        "y": 1959,
+        "w": 572,
+        "h": 242
+    },
+    {
+        "id": "bec695bc41df17b7",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "407d8ede930ed0f8",
+        "name": "Connected",
+        "func": "var connected = { payload: msg.payload.data };\n\nreturn [connected];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 80,
+        "wires": [
+            [
+                "2feef02238cde301",
+                "c2146917c59662e5"
+            ]
+        ]
+    },
+    {
+        "id": "2feef02238cde301",
+        "type": "ui_led",
+        "z": "f4a837709eeded50",
+        "g": "407d8ede930ed0f8",
+        "order": 5,
+        "group": "4927109389cd5918",
+        "width": 3,
+        "height": 1,
+        "label": "Connected",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "False",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "True",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "",
+        "x": 440,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "4138cc3d526116c1",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "407d8ede930ed0f8",
+        "server": "16956efe04a47409",
+        "topicname": "/status",
+        "x": 110,
+        "y": 200,
+        "wires": [
+            [
+                "a9c3e68b9ca68c8e",
+                "bec695bc41df17b7"
+            ]
+        ]
+    },
+    {
+        "id": "52c93f86d08bdc9b",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "407d8ede930ed0f8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"True\" }",
+        "payloadType": "json",
+        "x": 240,
+        "y": 380,
+        "wires": [
+            [
+                "82a9110486f82178"
+            ]
+        ]
+    },
+    {
+        "id": "82a9110486f82178",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "407d8ede930ed0f8",
+        "server": "16956efe04a47409",
+        "topicname": "/status",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 470,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a9c3e68b9ca68c8e",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "407d8ede930ed0f8",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "c2146917c59662e5",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "407d8ede930ed0f8",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8fe8a1e5fe7e15a2",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "5fadb7e7df5aca58",
+        "name": "Battery_Life",
+        "func": "var msg1 = { payload: parseInt((msg.payload.data)*100) };\nreturn [msg1];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 220,
+        "wires": [
+            [
+                "d1f2e82098134ba6"
+            ]
+        ]
+    },
+    {
+        "id": "d1f2e82098134ba6",
+        "type": "ui_gauge",
+        "z": "f4a837709eeded50",
+        "g": "5fadb7e7df5aca58",
+        "name": "",
+        "group": "4927109389cd5918",
+        "order": 1,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Battery",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "50",
+        "seg2": "70",
+        "className": "",
+        "x": 1300,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "c1eb550a2528e39e",
+        "type": "ui_gauge",
+        "z": "f4a837709eeded50",
+        "g": "05fa76a1e1ef9d0c",
+        "name": "",
+        "group": "4927109389cd5918",
+        "order": 2,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Battery-Voltage",
+        "label": "V",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "5",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "3.5",
+        "seg2": "4.8",
+        "className": "",
+        "x": 1300,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "8c419680a4427cb4",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "05fa76a1e1ef9d0c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "{   \"data\": \"5.0\" }",
+        "payloadType": "json",
+        "x": 980,
+        "y": 380,
+        "wires": [
+            [
+                "ac38eefb2c455393"
+            ]
+        ]
+    },
+    {
+        "id": "056ad237852770e8",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "5fadb7e7df5aca58",
+        "server": "16956efe04a47409",
+        "topicname": "/battery/status",
+        "x": 910,
+        "y": 220,
+        "wires": [
+            [
+                "8fe8a1e5fe7e15a2"
+            ]
+        ]
+    },
+    {
+        "id": "1739ec0b81b51e42",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "05fa76a1e1ef9d0c",
+        "server": "16956efe04a47409",
+        "topicname": "/battery/voltage",
+        "x": 860,
+        "y": 520,
+        "wires": [
+            [
+                "d12ed2d196203229"
+            ]
+        ]
+    },
+    {
+        "id": "d12ed2d196203229",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "05fa76a1e1ef9d0c",
+        "name": "Battery_Voltage",
+        "func": "var msg2 = { payload: parseInt(msg.payload.data) };\nreturn [msg2];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 460,
+        "wires": [
+            [
+                "c1eb550a2528e39e"
+            ]
+        ]
+    },
+    {
+        "id": "88d5e535815b8a9e",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "5fadb7e7df5aca58",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"1.0\" }",
+        "payloadType": "json",
+        "x": 940,
+        "y": 100,
+        "wires": [
+            [
+                "43c8e3fa95263a56"
+            ]
+        ]
+    },
+    {
+        "id": "43c8e3fa95263a56",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "5fadb7e7df5aca58",
+        "server": "16956efe04a47409",
+        "topicname": "/battery/status",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 1212.75,
+        "y": 93.75,
+        "wires": []
+    },
+    {
+        "id": "ac38eefb2c455393",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "05fa76a1e1ef9d0c",
+        "server": "16956efe04a47409",
+        "topicname": "/battery/voltage",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 1240,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "26222e96d0eed9d3",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "group": "31c6605ba8ea8a8a",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Detected Fire: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 620,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "7ce41d94cc0851a1",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "name": "Detected_Fire",
+        "func": "var detected = { payload: msg.payload.data };\n\nreturn [detected];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 600,
+        "wires": [
+            [
+                "26222e96d0eed9d3",
+                "983b8a615b71a5c3"
+            ]
+        ]
+    },
+    {
+        "id": "28cbb69e11ed8691",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "server": "16956efe04a47409",
+        "topicname": "/detected_fire",
+        "x": 150,
+        "y": 660,
+        "wires": [
+            [
+                "2ddbe0e11d35627d",
+                "7ce41d94cc0851a1"
+            ]
+        ]
+    },
+    {
+        "id": "a1fa7c5ff704288d",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"False\" }",
+        "payloadType": "json",
+        "x": 180,
+        "y": 780,
+        "wires": [
+            [
+                "ae6a3d7f11255044"
+            ]
+        ]
+    },
+    {
+        "id": "ae6a3d7f11255044",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "server": "16956efe04a47409",
+        "topicname": "/estinguished_fire",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 530,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "2ddbe0e11d35627d",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "f08ca4e11eb9f8b3",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "983b8a615b71a5c3",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "f08ca4e11eb9f8b3",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "b724a18d576d8cca",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "name": "Estinguished_Fire",
+        "func": "var estinguished = { payload: msg.payload.data };\n\nreturn [estinguished];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 520,
+        "wires": [
+            [
+                "8ffdf2cc8c1e386b"
+            ]
+        ]
+    },
+    {
+        "id": "1f2d12e905ff71ea",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "server": "16956efe04a47409",
+        "topicname": "/estinguished_fire",
+        "x": 140,
+        "y": 560,
+        "wires": [
+            [
+                "b724a18d576d8cca"
+            ]
+        ]
+    },
+    {
+        "id": "e675c1050dbcf165",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"False\" }",
+        "payloadType": "json",
+        "x": 180,
+        "y": 880,
+        "wires": [
+            [
+                "f2fb7a1e02979e57"
+            ]
+        ]
+    },
+    {
+        "id": "f2fb7a1e02979e57",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "server": "16956efe04a47409",
+        "topicname": "/detected_fire",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 560,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "8ffdf2cc8c1e386b",
+        "type": "ui_led",
+        "z": "f4a837709eeded50",
+        "g": "f08ca4e11eb9f8b3",
+        "order": 5,
+        "group": "31c6605ba8ea8a8a",
+        "width": 5,
+        "height": 1,
+        "label": "Exstinguished:",
+        "labelPlacement": "left",
+        "labelAlignment": "left",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "False",
+                "valueType": "str"
+            },
+            {
+                "color": "#008000",
+                "value": "True",
+                "valueType": "str"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "square",
+        "showGlow": true,
+        "name": "Extinguished FIre",
+        "x": 630,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "917a1b4935a754e8",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "name": "GPS",
+        "func": "var latitude = { payload: msg.payload.latitude };\n\nreturn [latitude];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 680,
+        "wires": [
+            [
+                "d90780d0a86137d2",
+                "cdff419b9f421c0f"
+            ]
+        ]
+    },
+    {
+        "id": "8f5767bef00552f1",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "638659e79dbf0cf9",
+        "server": "16956efe04a47409",
+        "topicname": "/gps/filtered",
+        "x": 890,
+        "y": 680,
+        "wires": [
+            [
+                "917a1b4935a754e8"
+            ]
+        ]
+    },
+    {
+        "id": "d90780d0a86137d2",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "638659e79dbf0cf9",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "f5567fe9d734aff2",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "name": "GPS",
+        "func": "var longitude = { payload: msg.payload.longitude };\n\nreturn [longitude];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 800,
+        "wires": [
+            [
+                "baebc1c94ef3b844",
+                "8e3548d2a8ef38e2"
+            ]
+        ]
+    },
+    {
+        "id": "db3da4b5ee7b06f7",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "server": "16956efe04a47409",
+        "topicname": "/gps/filtered",
+        "x": 870,
+        "y": 800,
+        "wires": [
+            [
+                "f5567fe9d734aff2"
+            ]
+        ]
+    },
+    {
+        "id": "baebc1c94ef3b844",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "638659e79dbf0cf9",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "cdff419b9f421c0f",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "group": "4927109389cd5918",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "latitude: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1340,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "8e3548d2a8ef38e2",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "group": "4927109389cd5918",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "longitude: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1340,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "32c462921966bad9",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "GPS",
+        "func": "//var iss_location = msg.payload.iss_position;\n//let latitude = { payload: parseFloat(msg.payload.position_latitude).toFixed(3) };\n//let longitude = { payload: parseFloat(msg.payload.position_longitude).toFixed(3) };\nlet latitude = flow.get(\"latitude\");\nlet longitude = flow.get(\"longitude\");\n\nmsg.payload = {\n    name: \"Jackal\",\n    lat: latitude,\n    lon: longitude,\n    icon: \"car\",\n    //icon: \"fa- solid fa - shuttle - space\",\n    iconColor: '#900000',\n    //command : { \"zoom\" : 3 }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1260,
+        "wires": [
+            [
+                "1a284ebdfe8ef37e",
+                "80dbc714d12ccf92",
+                "4754c6b087ab1ab8"
+            ]
+        ]
+    },
+    {
+        "id": "a1f8e10c6f224d10",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "2b0d71437445b798",
+        "server": "16956efe04a47409",
+        "topicname": "/gps/filtered",
+        "x": 170,
+        "y": 1360,
+        "wires": [
+            [
+                "8d24d95130627fec"
+            ]
+        ]
+    },
+    {
+        "id": "1a284ebdfe8ef37e",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "2b0d71437445b798",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "80dbc714d12ccf92",
+        "type": "worldmap-tracks",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "depth": "20",
+        "smooth": true,
+        "x": 850,
+        "y": 1260,
+        "wires": [
+            [
+                "4754c6b087ab1ab8"
+            ]
+        ]
+    },
+    {
+        "id": "4754c6b087ab1ab8",
+        "type": "worldmap",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "worldmap_two",
+        "lat": "",
+        "lon": "",
+        "zoom": "",
+        "layer": "EsriS",
+        "cluster": "3",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "true",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "deg",
+        "showgrid": "true",
+        "allowFileDrop": "true",
+        "path": "/worldmap_two",
+        "overlist": "DR,CO,RA,DN,BU,RW,SN,AC,TL,HM",
+        "maplist": "OSMG,OSMC,OSMH,EsriC,EsriS,EsriT,EsriO,EsriDG,NatGeo,UKOS,OpTop,HB,AN,ST,SW",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1040,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "7de012f7eea5b1c6",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "Init WorldMap",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "",
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 180,
+        "y": 1080,
+        "wires": [
+            [
+                "df632325fe7370ea"
+            ]
+        ]
+    },
+    {
+        "id": "df632325fe7370ea",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "Inject /worldmap",
+        "func": "msg.payload =   {\n                url : \"/worldmap_two\",\n                command : {\n                        layer:\"Esri Satellite\",\n                        lat:40.825599,\n                        lon:15.274523,\n                        zoom:3,\n                        map: { name: \"Esri Satellite\" },\n                        addtoheatmap:true, \n                        autopan:true\n                        }\n                };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 1080,
+        "wires": [
+            [
+                "6bc023d9ffab218a"
+            ]
+        ]
+    },
+    {
+        "id": "6bc023d9ffab218a",
+        "type": "template",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "Add Map to Dashboard",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<iframe src={{{payload.url}}} height=750px width=1000px ></iframe>",
+        "x": 690,
+        "y": 1080,
+        "wires": [
+            [
+                "17dfb463eea0b5ef"
+            ]
+        ]
+    },
+    {
+        "id": "17dfb463eea0b5ef",
+        "type": "ui_template",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "group": "dcb5afc7d4b5d1ec",
+        "name": "Embedded Map",
+        "order": 1,
+        "width": 20,
+        "height": 15,
+        "format": "<div ng-bind-html=\"msg.payload | trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "className": "",
+        "x": 920,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d24d95130627fec",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "Position",
+        "func": "var latitude = { payload: parseFloat(msg.payload.latitude).toFixed(5) };\nvar longitude = { payload: parseFloat(msg.payload.longitude).toFixed(5) };\nvar position_absolute_alt = { payload: parseFloat(msg.payload.altitude).toFixed(2) };\nvar position_relative_alt = { payload: parseFloat(msg.payload.altitude).toFixed(2) };\nreturn [latitude, longitude, position_absolute_alt, position_relative_alt];\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 180,
+        "y": 1180,
+        "wires": [
+            [
+                "b6f09a9f3ea74c88"
+            ],
+            [
+                "924611ad2cc067d1"
+            ]
+        ]
+    },
+    {
+        "id": "b6f09a9f3ea74c88",
+        "type": "change",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "latitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 1160,
+        "wires": [
+            [
+                "32c462921966bad9"
+            ]
+        ]
+    },
+    {
+        "id": "924611ad2cc067d1",
+        "type": "change",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "longitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1260,
+        "wires": [
+            [
+                "32c462921966bad9"
+            ]
+        ]
+    },
+    {
+        "id": "e06af965515b312d",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "function 2",
+        "func": "let latitude = flow.get(\"latitude\");\nlet longitude = flow.get(\"longitude\");\n\nmsg.payload = { \"message\": \"success\", \"rover_position\": { \"latitude\": latitude, \"longitude\": longitude }, \"timestamp\": 1662468782 }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 1580,
+        "wires": [
+            [
+                "9ae5aeea9a3158ef",
+                "32c462921966bad9"
+            ]
+        ]
+    },
+    {
+        "id": "9ae5aeea9a3158ef",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "2b0d71437445b798",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 940,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "b6ea57200ec9291c",
+        "type": "change",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "latitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1520,
+        "wires": [
+            [
+                "e06af965515b312d"
+            ]
+        ]
+    },
+    {
+        "id": "70802bf4318ed54a",
+        "type": "change",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "longitude",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 530,
+        "y": 1620,
+        "wires": [
+            [
+                "e06af965515b312d"
+            ]
+        ]
+    },
+    {
+        "id": "84a379349d1bcd0d",
+        "type": "ui_slider",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "label": "latitude",
+        "tooltip": "",
+        "group": "dcb5afc7d4b5d1ec",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "latitude",
+        "topicType": "flow",
+        "min": "-90",
+        "max": "90",
+        "step": "0.00001",
+        "className": "",
+        "x": 320,
+        "y": 1520,
+        "wires": [
+            [
+                "b6ea57200ec9291c"
+            ]
+        ]
+    },
+    {
+        "id": "85d33bb2818216c7",
+        "type": "ui_slider",
+        "z": "f4a837709eeded50",
+        "g": "2b0d71437445b798",
+        "name": "",
+        "label": "longitude",
+        "tooltip": "",
+        "group": "dcb5afc7d4b5d1ec",
+        "order": 3,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "outs": "all",
+        "topic": "longitude",
+        "topicType": "flow",
+        "min": "-180",
+        "max": "180",
+        "step": "0.00001",
+        "className": "",
+        "x": 320,
+        "y": 1600,
+        "wires": [
+            [
+                "70802bf4318ed54a"
+            ]
+        ]
+    },
+    {
+        "id": "e0f273097bc46780",
+        "type": "comment",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "2b0d71437445b798",
+        "name": "Control rover manually",
+        "info": "",
+        "x": 500,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "a83226165d96a0c1",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "Connected",
+        "func": "var temperature = { payload: parseFloat(msg.payload.data)};\nreturn [temperature];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1780,
+        "wires": [
+            [
+                "3ca8033a587f298e",
+                "5a47acdf5eb8e625"
+            ]
+        ]
+    },
+    {
+        "id": "338b6b185995887f",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "server": "16956efe04a47409",
+        "topicname": "/temperature/sensor",
+        "x": 130,
+        "y": 1860,
+        "wires": [
+            [
+                "a83226165d96a0c1",
+                "5c9ea988acb25ec3"
+            ]
+        ]
+    },
+    {
+        "id": "d93622fde38192dd",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"50.5\" }",
+        "payloadType": "json",
+        "x": 140,
+        "y": 2160,
+        "wires": [
+            [
+                "d28dd2984d3c405a"
+            ]
+        ]
+    },
+    {
+        "id": "d28dd2984d3c405a",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "server": "16956efe04a47409",
+        "topicname": "/temperature/sensor",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 580,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "3ca8033a587f298e",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "debug 21",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "5a47acdf5eb8e625",
+        "type": "ui_gauge",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "",
+        "group": "4927109389cd5918",
+        "order": 9,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "C°",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#b30000"
+        ],
+        "seg1": "50",
+        "seg2": "100",
+        "className": "",
+        "x": 630,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "c11869362e7b9886",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "server": "16956efe04a47409",
+        "topicname": "/update/temperature",
+        "typepackage": "std_msgs",
+        "typename": "Float32",
+        "stampheader": false,
+        "x": 460,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "f19015fdf6338f95",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"data\":\"55\"}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 2040,
+        "wires": [
+            [
+                "c11869362e7b9886"
+            ]
+        ]
+    },
+    {
+        "id": "72eacb035aa4c685",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "server": "16956efe04a47409",
+        "topicname": "/update/temperature",
+        "x": 270,
+        "y": 2100,
+        "wires": [
+            [
+                "40c46e71a5978ff4"
+            ]
+        ]
+    },
+    {
+        "id": "40c46e71a5978ff4",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "debug 22",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "8498356e1c9525be",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "1efdcc16e841f3c6",
+        "name": "Fire_Position",
+        "func": "var fire = { payload: msg.payload };\n\nreturn [fire];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1820,
+        "wires": [
+            [
+                "c514b385493a875a",
+                "f2a5fb7a9ccb0394"
+            ]
+        ]
+    },
+    {
+        "id": "06086b6e0999c0f5",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "1efdcc16e841f3c6",
+        "server": "16956efe04a47409",
+        "topicname": "/darknet_ros_3d/markers",
+        "x": 950,
+        "y": 1820,
+        "wires": [
+            [
+                "8498356e1c9525be"
+            ]
+        ]
+    },
+    {
+        "id": "c514b385493a875a",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "g": "1efdcc16e841f3c6",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1500,
+        "y": 1780,
+        "wires": []
+    },
+    {
+        "id": "f2a5fb7a9ccb0394",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "1efdcc16e841f3c6",
+        "group": "31c6605ba8ea8a8a",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "Location FIre Distance: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1550,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "2e859349d017e8fa",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "beb258d68d350182",
+        "name": "Fuel:Status",
+        "func": "var msg1 = { payload: parseInt((msg.payload.data)*100) };\nreturn [msg1];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1490,
+        "y": 1220,
+        "wires": [
+            [
+                "2776fe320e9cf8f8"
+            ]
+        ]
+    },
+    {
+        "id": "2776fe320e9cf8f8",
+        "type": "ui_gauge",
+        "z": "f4a837709eeded50",
+        "g": "beb258d68d350182",
+        "name": "",
+        "group": "4927109389cd5918",
+        "order": 10,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Fuel",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#b30000",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "50",
+        "seg2": "70",
+        "className": "",
+        "x": 1650,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "bb3003c05ddaa594",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "beb258d68d350182",
+        "server": "16956efe04a47409",
+        "topicname": "/fuel/status",
+        "x": 1260,
+        "y": 1220,
+        "wires": [
+            [
+                "2e859349d017e8fa"
+            ]
+        ]
+    },
+    {
+        "id": "068b0e1a5083e2fe",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "beb258d68d350182",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"1.0\" }",
+        "payloadType": "json",
+        "x": 1300,
+        "y": 1100,
+        "wires": [
+            [
+                "032eae6627e2175e"
+            ]
+        ]
+    },
+    {
+        "id": "032eae6627e2175e",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "beb258d68d350182",
+        "server": "16956efe04a47409",
+        "topicname": "/fuel/status",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 1562.75,
+        "y": 1093.75,
+        "wires": []
+    },
+    {
+        "id": "ee761337b4ed512e",
+        "type": "ui_gauge",
+        "z": "f4a837709eeded50",
+        "g": "c53101b2820f65ea",
+        "name": "",
+        "group": "4927109389cd5918",
+        "order": 11,
+        "width": 4,
+        "height": 3,
+        "gtype": "wave",
+        "title": "Water",
+        "label": "L",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1000",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "className": "",
+        "x": 1230,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "5c9ea988acb25ec3",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "g": "8e51426e14255890",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "e1dcc023d97b534a",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "group": "4927109389cd5918",
+        "order": 18,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "altitude: ",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 1340,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "4503a4cd1d80a998",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "g": "c53101b2820f65ea",
+        "server": "16956efe04a47409",
+        "topicname": "/water/sensor",
+        "x": 910,
+        "y": 2020,
+        "wires": [
+            [
+                "7e303e7c8d4a45ac"
+            ]
+        ]
+    },
+    {
+        "id": "7e303e7c8d4a45ac",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "c53101b2820f65ea",
+        "name": "Connected",
+        "func": "var temperature = { payload: parseFloat(msg.payload.data)};\nreturn [temperature];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1090,
+        "y": 2060,
+        "wires": [
+            [
+                "ee761337b4ed512e"
+            ]
+        ]
+    },
+    {
+        "id": "251fc58278c2d560",
+        "type": "ros-publish",
+        "z": "f4a837709eeded50",
+        "g": "c53101b2820f65ea",
+        "server": "16956efe04a47409",
+        "topicname": "/water/sensor",
+        "typepackage": "std_msgs",
+        "typename": "String",
+        "stampheader": false,
+        "x": 1280,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "8dca369638a142f3",
+        "type": "inject",
+        "z": "f4a837709eeded50",
+        "g": "c53101b2820f65ea",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"data\": \"100000\" }",
+        "payloadType": "json",
+        "x": 950,
+        "y": 2140,
+        "wires": [
+            [
+                "251fc58278c2d560"
+            ]
+        ]
+    },
+    {
+        "id": "08308eedff325358",
+        "type": "ros-subscribe",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "638659e79dbf0cf9",
+        "server": "16956efe04a47409",
+        "topicname": "/gps/filtered",
+        "x": 890,
+        "y": 900,
+        "wires": [
+            [
+                "8e8a90e7527a1b89"
+            ]
+        ]
+    },
+    {
+        "id": "8e8a90e7527a1b89",
+        "type": "function",
+        "z": "f4a837709eeded50",
+        "g": "638659e79dbf0cf9",
+        "name": "GPS",
+        "func": "var longitude = { payload: msg.payload.longitude };\n\nreturn [longitude];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 880,
+        "wires": [
+            [
+                "e1dcc023d97b534a",
+                "e65133342b4ad6d3"
+            ]
+        ]
+    },
+    {
+        "id": "e65133342b4ad6d3",
+        "type": "debug",
+        "z": "f4a837709eeded50",
+        "d": true,
+        "g": "638659e79dbf0cf9",
+        "name": "debug 26",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "f1b1e898624d99ab",
+        "type": "ui_text",
+        "z": "f4a837709eeded50",
+        "group": "4927109389cd5918",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Rover Status",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 167.56666564941406,
+        "y": 274.566650390625,
+        "wires": []
+    },
+    {
+        "id": "ff8eaff57ab6c18f",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b37fa166a12fd59f",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "33b7948de9219810",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 7,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "f27150ee6c4eaadc",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 8,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "7653b1b4cc2cdcc8",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 12,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "9ea7b33227528626",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 13,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "8cc3a305f19c9475",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 15,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "f0376213727f4f45",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 17,
+        "width": 12,
+        "height": 1
+    },
+    {
+        "id": "e1213281bf5b7bc9",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "4927109389cd5918",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "b7b6d497ec8d5f2a",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "31c6605ba8ea8a8a",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "39188639eb314a0c",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "31c6605ba8ea8a8a",
+        "order": 4,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "dcaaf21d3097db69",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "31c6605ba8ea8a8a",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "1243275a822c4b51",
+        "type": "ui_spacer",
+        "z": "f4a837709eeded50",
+        "name": "spacer",
+        "group": "dcb5afc7d4b5d1ec",
+        "order": 4,
+        "width": 9,
+        "height": 1
+    },
+    {
+        "id": "4927109389cd5918",
+        "type": "ui_group",
+        "name": "Onboard",
+        "tab": "5f2c18732ffc5832",
+        "order": 2,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "16956efe04a47409",
+        "type": "ros-server",
+        "url": "ws://0.0.0.0:9090"
+    },
+    {
+        "id": "31c6605ba8ea8a8a",
+        "type": "ui_group",
+        "name": "Fire",
+        "tab": "5f2c18732ffc5832",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dcb5afc7d4b5d1ec",
+        "type": "ui_group",
+        "name": "Map",
+        "tab": "5f2c18732ffc5832",
+        "order": 3,
+        "disp": true,
+        "width": "20",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5f2c18732ffc5832",
+        "type": "ui_tab",
+        "name": "Rover",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
