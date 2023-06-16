@@ -1,0 +1,10 @@
+<launch>
+
+    <include file="$(find jackal_tools)/launch/test_field.launch" />
+
+    <include file="$(find jackal_tools)/launch/gmapping.launch" />
+
+    <include file="$(find jackal_tools)/launch/with_map_move_base.launch">
+        <remap from="/cmd_vel" to="/jackal_velocity_controller/cmd_vel" />
+    </include>
+</launch>
