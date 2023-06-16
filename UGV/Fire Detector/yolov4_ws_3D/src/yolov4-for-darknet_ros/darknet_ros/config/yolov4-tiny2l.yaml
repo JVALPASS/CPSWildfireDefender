@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: yolov4-tiny-2l.cfg
+  weight_file:
+    name: yolov4-tiny-2l.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - fire
